@@ -1,0 +1,130 @@
+body {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(/falling_cube_images/cube_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+}
+
+#timer{
+    background: rgb(202, 21, 21);
+    /* display: flex; */
+    padding: 1%;
+    justify-content: space-around;
+    /* align-items: center; */
+    position: absolute;
+    top:0;
+    left: 0;
+    margin-bottom: 1%;
+    /* z-index: 1; */
+}
+
+.side {
+    background: rgb(202, 21, 21);
+    /* display: flex; */
+    padding: 1%;
+    justify-content: space-around;
+    /* align-items: center; */
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-bottom: 1%;
+    /* z-index: 1; */
+}
+
+.side button{
+    width: 100%;
+    margin: 0;
+    
+}
+.side #add{
+    width: 50%;
+    text-align: center;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    position: relative;
+    background: linear-gradient(yellow,red);
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.cube {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left:175px ;
+}
+
+.bar {
+    width: 150px;
+    height: 10px;
+    background: blue;
+    position: absolute;
+    margin-top: 480px;
+    margin-right:  0;
+    margin-bottom:  0;
+    left:  175px; 
+}
+
+button {
+    margin-top: 100px;
+    background:linear-gradient(blue,orange);
+    color: white;
+    padding: 20px;
+}
+
+
+table{
+    border: 5px solid black;
+    margin: 20px;
+}
+
+table th {
+    border: 1px solid #000;
+    text-align: center;
+    background-color: rgb(193, 210, 212);
+    padding: 10px;
+    color: rgb(22, 146, 105);
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+  
+table td{
+    border: 1px solid gray;
+    padding: 10px;
+    white-space: wrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: white;
+    color: black; 
+  }
+  
+table tr:nth-child(odd){
+        background-color: rgb(101, 177, 105);
+    }

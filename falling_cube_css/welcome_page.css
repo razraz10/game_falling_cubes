@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url(/falling_cube_images/welcome_pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#title {
+    background: linear-gradient(red, green);
+    color: yellow;
+    margin-top: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.linkToGame {
+    width: 45%;
+    margin: 10px;
+    /* border: 1px solid; */
+}
+
+.games{
+    position: relative;
+}
+
+.games p{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: yellow;
+    padding: 5px 10px;
+}
+
+.pic {
+    width: 100%;
+    height: 100%;
+}

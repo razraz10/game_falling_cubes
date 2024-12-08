@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url(/falling_cube_images/form.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+form{
+    background: rgb(173, 238, 9);
+}
